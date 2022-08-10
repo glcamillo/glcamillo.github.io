@@ -3,6 +3,8 @@
 **Ubuntu**
 `/etc/systemd/resolv.conf | system.conf | user.conf | timesyncd.conf | networkd.conf | journald.conf`
 
+
+
 `/usr/bin/journalctl -r (reverse) | -n 20 (20 most recent) | -f (what in realtime) | --utc
             -k (kernel =  dmesg) | -u ssh (services)
             --since=yesterday --until=now
