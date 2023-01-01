@@ -1,21 +1,24 @@
 
-Compiling
-a) Flags
+# Compiling help in Linux: shared and static
+
+## Flags for compiling
 CFLAGS=
 
-b) 
+## Some basic examples
 gcc -o func-a.o a.c b.c
 gcc -o func-b.o func-b.c
 
-Create libs
-Static Libs
+# Creating and using libraries
+
+## Static Libs: used in some cases, like the wrf-model. Some programs/libs need that the dependencies constructed with the same compiler.
+
 https://tldp.org/HOWTO/Program-Library-HOWTO/static-libraries.html
 ar -ru lib-funcs.a func-a.o func-b.o
 Generate index
 ranlib lib-funcs.a
 
 
-Shared Libs
+## Shared Libs
 https://tldp.org/HOWTO/Program-Library-HOWTO/shared-libraries.html
 
 gcc -shared -Wl,-soname,your_soname \
