@@ -1,7 +1,6 @@
 ## Source of my own pocket tools
 
-Site with resources (links and references) to the class of networking at UFSC Araranguá
-[glcamillo.github.io/aulas-ufsc-materiais/](https://glcamillo.github.io/aulas-ufsc-materiais/)
+[**Basic references** (links) on Networking, Internet, and Cybersecurity](https://glcamillo.github.io/enderecos-e-referencias-em-redes/))
 
 [Linux logging (systemd-journal)](https://glcamillo.github.io/docs/linux-logging-journal)
 
